@@ -38,6 +38,11 @@ spec:
                 secretKeyRef:
                   name: postgres-secret
                   key: db_password
+            - name: MAIL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: mail_password
             - name: ISSUER_URI
               value: https://poiasniko.20.107.204.3.nip.io/auth/realms/rental
             - name: JWT_URI
