@@ -29,6 +29,7 @@ Nakonfigurovať ingress-nginx + cert-manager tak, aby tvoje aplikácie bežali n
    # EXTERNAL-IP -> napr. 20.123.45.67
    ```
 
+
 2. Vytvor `ClusterIssuer` pre Let's Encrypt (HTTP-01 challenge):
 
    ```yaml
