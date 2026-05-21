@@ -30,6 +30,7 @@ Nakonfigurovať ingress-nginx + cert-manager tak, aby tvoje aplikácie bežali n
    ```
 
 
+
 2. Vytvor `ClusterIssuer` pre Let's Encrypt (HTTP-01 challenge):
 
    ```yaml
