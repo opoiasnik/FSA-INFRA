@@ -19,5 +19,5 @@ jobs:
         run: |
           git fetch --unshallow
           git remote remove origin
-          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.fullstackacademy.sk/opoiasnik/fsa-infra-demo.git
+          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.fullstackacademy.sk/opoiasnik/FSA-INFRA.git
           git push --mirror gitlab
