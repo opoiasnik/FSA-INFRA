@@ -27,6 +27,8 @@ spec:
           image: acrfsapoiasniko.azurecr.io/rental-backend:latest
           imagePullPolicy: Always
           env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: keycloak
             # Nacitanie citlivych udajov pre DB z K8s secrets
             - name: DB_URL
               valueFrom:
