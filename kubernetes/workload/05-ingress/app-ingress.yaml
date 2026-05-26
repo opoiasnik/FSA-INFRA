@@ -16,10 +16,10 @@ spec:
   # Toto je potrebne iba pre cert-manager
   tls:
   - hosts:
-      - poiasniko.20.107.204.3.nip.io
+      - rent-area.com
     secretName: app-tls-cert
   rules:
-    - host: poiasniko.20.107.204.3.nip.io
+    - host: rent-area.com
       http:
         paths:
           - path: /

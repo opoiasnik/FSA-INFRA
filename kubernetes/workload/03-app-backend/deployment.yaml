@@ -51,9 +51,9 @@ spec:
                   name: postgres-secret
                   key: mail_password
             - name: ISSUER_URI
-              value: https://poiasniko.20.107.204.3.nip.io/auth/realms/rental
+              value: https://rent-area.com/auth/realms/rental
             - name: JWT_URI
-              value: https://poiasniko.20.107.204.3.nip.io/auth/realms/rental/protocol/openid-connect/certs
+              value: https://rent-area.com/auth/realms/rental/protocol/openid-connect/certs
             # Override casti Spring Boot konfiguracie kvoli citlivym udajom
             - name: JAVA_OPTS
               value: >-
